@@ -22,7 +22,7 @@ Sample Output:
 
 
 
-# Solution 1:
+# Solution:
 if __name__ == '__main__':
     n = int(input())
     integer_list = map(int, input().split())
@@ -30,10 +30,3 @@ if __name__ == '__main__':
     for i in integer_list:
         t.append(int(i))
     print(hash(tuple(t)))
-
-
-# Solution 2:
-# n = int(input())
-# lst = [int(x) for x in input().split()]
-# tpl = tuple(lst)
-# print(hash(tpl))
